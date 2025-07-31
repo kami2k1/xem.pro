@@ -1,0 +1,196 @@
+[
+  {
+    "icon": "/images/mini-tab1.png",
+    "alt": "Thể Thao",
+    "title": "Thể Thao",
+    "description": "Tổng hợp trận đấu từ các trang xoilac, thapcam,...",
+    "backgroundImage": "/images/bg-hl1.png",
+    "services": [
+      {
+        "name": "ThapcamTV",
+        "url": "https://tctv.pro",
+        "icon": "https://thapcamiptv.com/10cam-logo-app-light.jpg",
+        "description": "Bạn có thể dễ dàng tìm thấy thông tin và thưởng thức các trận đấu hấp dẫn từ ThapcamTV",
+        "link": "https://monstudio.page.link/thapcam"
+      },
+      {
+        "name": "VeboTV",
+        "url": "https://vbtv.pro",
+        "icon": "https://vebo.thethaoiptv.com/vebo-icon.png",
+        "description": "Bạn có thể dễ dàng tìm thấy thông tin và thưởng thức các trận đấu hấp dẫn từ VeboTV",
+        "link": "https://monstudio.page.link/vebo"
+      }
+    ]
+  },
+  {
+    "icon": "/images/mini-tab2.png",
+    "alt": "Phim Ảnh",
+    "title": "Phim Ảnh",
+    "description": "Tổng hợp phim từ các trang như rophim, phimmoi,...",
+    "backgroundImage": "/images/bg-hl2.png",
+    "services": [
+      {
+        "name": "Rophim",
+        "url": "https://iptv.rophim.dev",
+        "icon": "https://rophim.me/images/favicon.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ RoPhim",
+        "link": "https://monstudio.page.link/rophim"
+      },
+      {
+        "name": "Ophim",
+        "url": "https://op-pvd.moviedb.dev",
+        "icon": "https://op-pvd.moviedb.dev/logo.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ OPhim",
+        "link": "https://monstudio.page.link/ophim"
+      },
+      {
+        "name": "Kkphim",
+        "url": "https://kk-pvd.moviedb.dev",
+        "icon": "https://kk-pvd.moviedb.dev/logo.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ KkPhim",
+        "link": "https://monstudio.page.link/kkphim"
+      },
+      {
+        "name": "Vipphim",
+        "url": "https://vp-pvd.moviedb.dev",
+        "icon": "https://vp-pvd.moviedb.dev/logo.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ VipPhim",
+        "link": "https://monstudio.page.link/vip-phim"
+      },
+      {
+        "name": "TVPHIM",
+        "url": "https://tv-pvd.moviedb.dev",
+        "icon": "https://tv-pvd.moviedb.dev/logo.webp",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ TVPhim",
+        "link": "https://monstudio.page.link/tv-phim"
+      }
+    ]
+  },
+  {
+    "icon": "/images/mini-tab3.png",
+    "alt": "Anime",
+    "title": "Anime",
+    "description": "Tổng hợp các bộ Anime mới nhất, hot nhất",
+    "backgroundImage": "/images/bg-hl3.png",
+    "services": [
+      {
+        "name": "Animehay",
+        "url": "https://iptv.animehay.dev",
+        "icon": "https://iptv.animehay.dev/logo.png",
+        "description": "Bạn có thể dễ dàng thưởng thức các bộ anime siêu hot từ Animehay",
+        "link": "https://monstudio.page.link/animehay"
+      },
+      {
+        "name": "Anime47",
+        "url": "https://iptv.anime47.net",
+        "icon": "https://iptv.anime47.net/logo.png",
+        "description": "Bạn có thể dễ dàng thưởng thức các bộ anime siêu hot từ Anime47",
+        "link": "https://monstudio.page.link/anime47"
+      }
+    ]
+  },
+  {
+    "icon": "/images/mini-tab4.png",
+    "alt": "Truyền hình",
+    "title": "Truyền Hình",
+    "description": "Tổng hợp kênh truyền hình từ các trang như FPT, K+...",
+    "backgroundImage": "/images/bg-hl4.png",
+    "services": [
+      {
+        "name": "Truyền hình",
+        "url": "https://iptv.nhadai.org/v1",
+        "icon": "https://iptv.nhadai.org/logo.png",
+        "description": "Bạn có thể dễ dàng thưởng thức các kênh truyền hình",
+        "link": "https://monstudio.page.link/truyen-hinh"
+      }
+    ]
+  },
+  {
+    "icon": "/images/mini-tab5.png",
+    "alt": "18+",
+    "title": "18+",
+    "description": "Tổng hợp video, truyện 18+ từ các trang hot như nangcuc,  kamidev ,vlxx,...",
+    "backgroundImage": "/images/bg-hl5.png",
+    "services": [
+      {
+        "name": "Nangcuc",
+        "url": "https://iptv.nangcucz.link",
+        "icon": "https://img.nangcuc.live/images/logo-oq7muqxcliwv.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ Nangcuc",
+        "link": "https://monstudio.page.link/nangcuc"
+      },
+      {
+        "name": "Vlxx",
+        "url": "https://iptv.nangcucz.link/provider/vlxx",
+        "icon": "https://iptv.nangcucz.link/images/vlxx.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ Vlxx",
+        "link": "https://monstudio.page.link/vlxx"
+      },
+      {
+        "name": "Sextop1",
+        "url": "https://iptv.nangcucz.link/provider/sextop1",
+        "icon": "https://iptv.nangcucz.link/images/sextop1.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ Sextop1",
+        "link": "https://monstudio.page.link/sextop1"
+      },
+      {
+        "name": "HeoVL",
+        "url": "https://iptv.nangcucz.link/provider/heovl",
+        "icon": "https://iptv.nangcucz.link/images/heovl.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ HeoVL",
+        "link": "https://monstudio.page.link/heovl"
+      },
+      {
+        "name": "SexLive",
+        "url": "https://iptv.nangcucz.link/provider/sexlive",
+        "icon": "https://iptv.nangcucz.link/images/sexlive.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ phim siêu hot từ SexLive",
+        "link": "https://monstudio.page.link/sexlive"
+      },
+      {
+        "name": "TruyenSexTV",
+        "url": "https://truyenx.link/truyensextv",
+        "icon": "https://truyenx.link/images/truyensextv.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ truyện siêu hot từ TruyenSexTV",
+        "link": "https://monstudio.page.link/truyensextv"
+      },
+      {
+        "name": "SayHentai",
+        "url": "https://truyenx.link/sayhentai",
+        "icon": "https://truyenx.link/images/sayhentai.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ truyện siêu hot từ SayHentai",
+        "link": "https://monstudio.page.link/sayhentai"
+      },
+      {
+        "name": "Manga18FX",
+        "url": "https://mg18fx.truyenx.link",
+        "icon": "https://mg18fx.truyenx.link/manga18fx.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ truyện siêu hot từ Manga18FX",
+        "link": "https://monstudio.page.link/manga18fx"
+      }
+    ]
+  },
+  {
+    "icon": "/images/mini-tab6.png",
+    "alt": "Truyện tranh",
+    "title": "Truyện Tranh",
+    "description": "Tổng hợp truyện tranh từ các trang như hangtruyen,...",
+    "backgroundImage": "/images/bg-hl6.png",
+    "services": [
+      {
+        "name": "Hangtruyen",
+        "url": "https://iptv.hangtruyen.net",
+        "icon": "https://hangtruyen.net/images/favicon.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ truyện tranh từ Hangtruyen",
+        "link": "https://monstudio.page.link/hang-truyen"
+      },
+      {
+        "name": "Ổ Truyện",
+        "url": "https://otruyen-iptv.khotruyen.link",
+        "icon": "https://otruyen-iptv.khotruyen.link/logo.png",
+        "description": "Bạn có thể dễ dàng tìm thấy và thưởng thức các bộ truyện tranh từ Ổ Truyện",
+        "link": "https://monstudio.page.link/otruyen"
+      }
+    ]
+  }
+]

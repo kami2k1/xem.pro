@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 const TabContent = ({ data }) => {
-  const copyToClipboard = (text) => {
+  const [copiedStates, setCopiedStates] = useState({})
+
+  const copyToClipboard = (text, serviceIndex) => {
     if (navigator.clipboard) {
       navigator.clipboard.writeText(text).then(() => {
         // Show success feedback
+        setCopiedStates(prev => ({ ...prev, [serviceIndex]: true }))
+        setTimeout(() => {
+          setCopiedStates(prev => ({ ...prev, [serviceIndex]: false }))
+        }, 2000)
         console.log('Copied to clipboard:', text)
       }).catch(err => {
         console.error('Failed to copy:', err)
@@ -18,6 +24,12 @@ const TabContent = ({ data }) => {
       textArea.select()
       document.execCommand('copy')
       document.body.removeChild(textArea)
+      
+      // Show success feedback
+      setCopiedStates(prev => ({ ...prev, [serviceIndex]: true }))
+      setTimeout(() => {
+        setCopiedStates(prev => ({ ...prev, [serviceIndex]: false }))
+      }, 2000)
     }
   }
 
@@ -81,10 +93,14 @@ const TabContent = ({ data }) => {
                   <span>{service.url}</span>
                   <div 
                     className="TablistSelected_SubInfo_Right"
-                    onClick={() => copyToClipboard(service.url)}
+                    onClick={() => copyToClipboard(service.url, index)}
                     style={{ cursor: 'pointer' }}
                   >
-                    <img title="Copy" alt="Copy" src="/images/document-copy.png" />
+                    <img 
+                      title={copiedStates[index] ? "Copied!" : "Copy"} 
+                      alt={copiedStates[index] ? "Copied!" : "Copy"} 
+                      src={copiedStates[index] ? "/images/tick-circle1.png" : "/images/document-copy.png"} 
+                    />
                   </div>
                 </div>
                 <span className="SubInfo_Des">{service.description}</span>
