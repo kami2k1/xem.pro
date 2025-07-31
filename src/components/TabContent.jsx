@@ -41,44 +41,6 @@ const TabContent = ({ data }) => {
           <div className="TabItem_Text_Left_Description">{data.description}</div>
         </div>
         
-        <div className="TabItem_Left_Step">
-          <div className="Step_Content">
-            <div className="Step_Content_Number">1</div>
-            <div className="Step_Content_Text">
-              <span>Bước 1:</span> Tải App trên App Store/Google Play
-            </div>
-          </div>
-          
-          <div className="TabItem_Left_Title">
-            <img alt={data.title} width="150" src="/images/Monplayer.png" />
-            <div className="TabItem_Left_Image">
-              <a 
-                className="highlight" 
-                href="https://apps.apple.com/vn/app/monplayer/id6590610364?l=vi" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <img alt="App Store" src="/images/as.png" />
-              </a>
-              <a 
-                className="highlight" 
-                href="https://play.google.com/store/apps/details?id=org.monplayer.mpapp" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <img alt="Google Play" src="/images/gp.png" />
-              </a>
-            </div>
-          </div>
-          
-          <div className="Step_Content">
-            <div className="Step_Content_Number">2</div>
-            <div className="Step_Content_Text">
-              <span>Bước 2:</span> Click vào nút xem ngay để trải nghiệm.
-            </div>
-          </div>
-        </div>
-        
         <div className="TabItem_Left_Content">
           {data.services.map((service, index) => (
             <div key={index} className="Content_SubInfo">
